@@ -1,6 +1,6 @@
 const { readFileSync: readFile } = require('fs');
 const { resolve } = require('path');
-const gitUrl = 'https://github.com/RocketChat/Rocket.Chat.Electron';
+const gitUrl = 'https://github.com/Appsoulute/Firewox.Electron';
 
 const parserOpts = {
 	mergePattern: /^(Merge pull request #(\d+) from (.*)|(.*) \(#(\d+)\))$/,

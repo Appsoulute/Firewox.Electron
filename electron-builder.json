@@ -8,7 +8,7 @@
 		"build/icon.ico",
 		"servers.json"
 	],
-	"appId": "chat.rocket",
+	"appId": "chat.firewox",
 	"mac": {
 		"category": "public.app-category.productivity",
 		"target": [
@@ -19,9 +19,9 @@
 		],
 		"icon": "build/icon.icns",
 		"bundleVersion": "50",
-		"helperBundleId": "chat.rocket.electron.helper",
+		"helperBundleId": "chat.firewox.electron.helper",
 		"type": "distribution",
-		"artifactName": "rocketchat-${version}.${ext}",
+		"artifactName": "firewox-${version}.${ext}",
 		"extendInfo": {
 			"NSMicrophoneUsageDescription": "I need access to your microphone to record the audio you want to send.",
 			"NSCameraUsageDescription": "I need access to your camera to record the video you want to send."
@@ -50,7 +50,7 @@
 	"mas": {
 		"entitlements": "build/entitlements.mas.plist",
 		"entitlementsInherit": "build/entitlements.mas.inherit.plist",
-		"artifactName": "rocketchat-${version}-mas.${ext}"
+		"artifactName": "firewox-${version}-mas.${ext}"
 	},
 	"win": {
 		"target": [
@@ -63,18 +63,18 @@
 		"perMachine": false,
 		"allowElevation": true,
 		"allowToChangeInstallationDirectory": true,
-		"artifactName": "rocketchat-setup-${version}.${ext}"
+		"artifactName": "firewox-setup-${version}.${ext}"
 	},
 	"appx": {
 		"backgroundColor": "#2f343d",
-		"displayName": "Rocket.Chat",
-		"publisherDisplayName": "Rocket.Chat",
+		"displayName": "firewox",
+		"publisherDisplayName": "firewox",
 		"languages": [
 			"en-US",
 			"en-GB",
 			"pt-BR"
 		],
-		"artifactName": "rocketchat-${version}-${arch}.${ext}"
+		"artifactName": "firewox-${version}-${arch}.${ext}"
 	},
 	"linux": {
 		"target": [
@@ -83,18 +83,18 @@
 			"rpm",
 			"snap"
 		],
-		"executableName": "rocketchat-desktop",
+		"executableName": "firewox-desktop",
 		"category": "GNOME;GTK;Network;InstantMessaging",
 		"desktop": {
-			"StartupWMClass": "Rocket.Chat",
-			"MimeType": "x-scheme-handler/rocketchat"
+			"StartupWMClass": "firewox",
+			"MimeType": "x-scheme-handler/firewox"
 		}
 	},
 	"publish": [
 		{
 			"provider": "github",
-			"owner": "RocketChat",
-			"repo": "Rocket.Chat.Electron",
+			"owner": "Appsoulute",
+			"repo": "Firewox.Electron",
 			"vPrefixedTagName": false
 		}
 	]

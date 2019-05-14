@@ -1,16 +1,16 @@
 {
-  "name": "rocketchat",
-  "productName": "Rocket.Chat",
-  "description": "Rocket.Chat Native Cross-Platform Desktop Application via Electron.",
+  "name": "firewox",
+  "productName": "firewox",
+  "description": "firewox Native Cross-Platform Desktop Application via Electron.",
   "version": "2.16.0-develop",
-  "author": "Rocket.Chat Support <support@rocket.chat>",
-  "copyright": "© 2019, Rocket.Chat",
-  "homepage": "https://rocket.chat",
+  "author": "firewox Support <jhlee@appsoulute.com>",
+  "copyright": "© 2019, firewox",
+  "homepage": "https://m.firewox.net",
   "license": "MIT",
   "main": "app/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RocketChat/Rocket.Chat.Electron.git"
+    "url": "https://github.com/Appsoulute/Firewox.Electron.git"
   },
   "scripts": {
     "postinstall": "electron-builder install-app-deps",

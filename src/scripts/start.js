@@ -12,7 +12,7 @@ async function setupLanding() {
 	window.addEventListener('offline', handleConnectionStatus);
 	handleConnectionStatus();
 
-	const defaultInstance = 'https://open.rocket.chat';
+	const defaultInstance = 'https://m.firewox.net';
 
 	document.querySelector('#login-card .connect__prompt').innerHTML = i18n.__('landing.inputUrl');
 	document.querySelector('#login-card #invalidUrl').innerHTML = i18n.__('error.noValidServerFound');
@@ -71,9 +71,9 @@ async function setupLanding() {
 						}
 
 						// If the url isn't localhost, don't have dots and don't have protocol
-						// try as a .rocket.chat subdomain
+						// try as a .firewox.net subdomain
 						if (!/(^https?:\/\/)|(\.)|(^([^:]+:[^@]+@)?localhost(:\d+)?$)/.test(host)) {
-							hostField.value = `https://${ host }.rocket.chat`;
+							hostField.value = `https://${ host }.firewox.net`;
 							return execValidation();
 						}
 

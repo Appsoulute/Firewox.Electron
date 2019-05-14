@@ -30,8 +30,8 @@ async function prepareApp() {
 	process.on('uncaughtException', handleUncaughtException);
 	process.on('unhandledRejection', handleUnhandledRejection);
 
-	app.setAsDefaultProtocolClient('rocketchat');
-	app.setAppUserModelId('chat.rocket');
+	app.setAsDefaultProtocolClient('firewox');
+	app.setAppUserModelId('chat.firewox');
 
 	await appData.initialize();
 
